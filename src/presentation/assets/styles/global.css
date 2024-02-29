@@ -1,0 +1,24 @@
+@import url("/src/presentation/assets/styles/alignment.css");
+@import url("/src/presentation/assets/styles/colors.css");
+@import url("/src/presentation/assets/styles/padding.css");
+@import url("/src/presentation/assets/styles/typography.css");
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  user-select: none;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  width: 390px;
+  margin: 0 auto;
+}
+
+body {
+  /* border: 1px solid var(--main); */
+}
+
+.canvas {
+  padding: 0 20px;
+  box-sizing: border-box;
+}
